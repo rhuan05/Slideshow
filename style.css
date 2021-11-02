@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.container--slider{
+    display: flex;
+    transition: 1s;
+}
+.slider{
+    width: 100vw;
+    height: 100px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 15px;
+}
+.red{
+    background: red;
+}
+.green{
+    background: green;
+}
+.black{
+    background: black;
+}
+.container--buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin: 10px;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
